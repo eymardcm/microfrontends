@@ -5,7 +5,7 @@ export default () => {
     const ref = useRef(null);
 
     useEffect(() => {
-        mountMarketingApp(ref.current)
+        mountMarketingApp(ref.current);
     })
 
 
